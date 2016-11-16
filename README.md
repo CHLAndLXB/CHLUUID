@@ -8,9 +8,9 @@ UDID的代替UUID+Keychain
 
 ```CFUUIDRef uuidObj = CFUUIDCreate(nil);
    
-   NSString *uuidString = (__bridge_transfer NSString*)CFUUIDCreateString(nil, uuidObj);
+      NSString *uuidString = (__bridge_transfer NSString*)CFUUIDCreateString(nil, uuidObj);
    
-   CFRelease(uuidObj);```
+      CFRelease(uuidObj);```
   
       
       
