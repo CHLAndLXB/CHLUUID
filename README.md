@@ -6,8 +6,8 @@ UDID的代替UUID+Keychain
 
       这种用UUID代替的设备唯一标识码，其中UUID的获取方法是
 
-```CFUUIDRef uuidObj = CFUUIDCreate(nil);
-   NSString *uuidString = (__bridge_transfer NSString*)CFUUIDCreateString(nil, uuidObj);
+```CFUUIDRef uuidObj = CFUUIDCreate(nil);\n
+   NSString *uuidString = (__bridge_transfer NSString*)CFUUIDCreateString(nil, uuidObj);\n
    CFRelease(uuidObj);```
   
       
